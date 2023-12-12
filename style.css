@@ -1,0 +1,149 @@
+/* work sans font google font  */
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Work+Sans:wght@500;600;700;800&display=swap');
+
+
+*{
+
+font-family: 'Work Sans', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.btn-praimary{
+
+
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 24px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+}
+
+/* header style  */
+header {
+
+
+    background: rgba(255, 144, 14, 0.10);
+   padding: 26px 100px;
+}
+nav {
+
+display: flex;
+justify-content: space-between;
+
+}
+nav > ul {
+
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+
+    list-style: none;
+    margin-left: 36px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.nav-titel{
+
+
+    color: #131313;
+text-align: center;
+
+font-size: 3rem;
+
+font-weight: 700;
+
+}
+
+
+.bannar-contain{
+max-width: 800px;
+text-align: center;
+margin: 0 auto;
+}
+
+.brand-titel{
+
+    color: #131313;
+
+ 
+    font-size: 4rem;
+  
+    font-weight: 700;
+
+
+}
+
+
+.brand-description{
+
+
+    color:  #727272;
+    text-align: center;
+
+    font-size: 1rem;
+
+margin-bottom: 1rem;
+
+
+
+}
+.bannar img {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* rreponsive */
+
+
+@media screen and (max-width: 575px) {
+
+header{
+    padding: 20px;
+}    
+   
+
+nav {
+   
+    flex-direction: column;
+}
+
+}
+
+
+/* tablet device  */
+
+@media screen and (min-width: 567px) and (max-width: 965px) {
+    header {
+        padding: 30px;
+    }
+
+    nav {
+   
+        flex-direction: column;
+     
+    }
+    
+    nav > ul{
+        padding: 20px 150px;
+
+    }
+
+
+}
